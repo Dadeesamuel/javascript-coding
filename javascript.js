@@ -11,10 +11,10 @@ let cap = ( res.toUpperCase());
 let verb1 = verb.charAt(0);
 let noun1 = noun.charAt(noun.length-1);
  let character = verb1.concat(noun1);
- let reverse = reversestring(character);
+ let rev = [...character].reverse().join("");
  let sliceadj = adjective.slice(0, 1);
  let adjective3 = adjective.concat("!!!")
  let verb3 = verb.concat("!!!")
  let noun3 = noun.concat("!!!")
  console.log( username +" "+ adjective +" "+ verb +" "+ noun +" "+ res +" "+ cap +" "+ verb1 +" "+ noun1 +" "+ character +" "+ 
- reverse +" "+ sliceadj +" "+ adjective3 +" "+ verb3 +" "+ noun3 );
+ rev +" "+ sliceadj +" "+ adjective3 +" "+ verb3 +" "+ noun3 );
