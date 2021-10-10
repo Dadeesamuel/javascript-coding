@@ -16,3 +16,5 @@ let noun1 = noun.charAt(noun.length-1);
  let adjective3 = adjective.concat("!!!")
  let verb3 = verb.concat("!!!")
  let noun3 = noun.concat("!!!")
+ console.log( username +" "+ adjective +" "+ verb +" "+ noun +" "+ res +" "+ cap +" "+ verb1 +" "+ noun1 +" "+ character +" "+ 
+ reverse +" "+ sliceadj +" "+ adjective3 +" "+ verb3 +" "+ noun3 );
